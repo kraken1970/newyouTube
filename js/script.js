@@ -158,12 +158,9 @@ modal.addEventListener("click", e => {
   if (!e.target.classList.contains("modal__body")) {
     closeModal();
   }
-  //   if (e.keyCode === 27) {
-  //     closeModal();
-  //   }
 });
 
-modal.addEventListener("keypress", e => {
+document.addEventListener("keydown", e => {
   if (e.keyCode === 27) {
     closeModal();
   }
