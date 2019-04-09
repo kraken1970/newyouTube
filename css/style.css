@@ -201,6 +201,7 @@ hr {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.35ms;
 }
 .modal__body {
   position: absolute;
@@ -212,4 +213,5 @@ hr {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   overflow: auto;
+  transition: all 0.35ms;
 }
